@@ -31,18 +31,20 @@ Este projeto tem como objetivo desenvolver um aplicativo móvel para auxiliar al
 
 ```mermaid
 graph TD
-    subgraph App da Faculdade
-        UC1("Consultar<br>Informações Acadêmicas")
-        UC2("Gerenciar Matrícula")
-        UC3("Solicitar Documento")
-        UC4("Processar Solicitação")
+    subgraph "App da Faculdade"
+        UC1["Consultar\nInformações Acadêmicas"]
+        UC2["Gerenciar Matrícula"]
+        UC3["Solicitar Documento"]
+        UC4["Processar Solicitação"]
     end
 
-    Aluno --|> UC1
-    Aluno --|> UC2
-    Aluno --|> UC3
-    Secretaria --|> UC4
-    UC3 ..> UC4 : Notifica
+    Aluno --> UC1
+    Aluno --> UC2
+    Aluno --> UC3
+
+    Secretaria --> UC4
+
+    UC3 -.-> UC4
 ```
 
 ### 📝 Exemplo de Caso de Uso: Solicitar Documento
