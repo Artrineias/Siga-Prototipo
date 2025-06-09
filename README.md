@@ -82,28 +82,28 @@ graph TD
 
 ---
 
-## 🎨 Etapa 2 – Interface
+##  Interface
 
-### 🧭 Telas Principais
+### Telas Principais
 
 - **Login**: Campos de RA e senha.
 ![Login](/images/Login-Figma.jpg)
-
+---
 - **Esqueceu a Senha ou Primeiro Acesso**: Para Criar uma nova Senha ou Criar a Primeira senha da Conta.
 ![CriarNovaSenha](/images/Criar_Nova_Senha-Figma.jpg)
-
+---
 - **Home**: Tela principal do app.
 ![Home](/images/Home_Figma.jpg)
-
+---
 - **Matricula**: Central de serviços administrativos referente a matriculas.
 ![Matricula](/images/Matricula-Figma.jpg)
-
+---
 - **Materias**: Mostra a frequencias e Notas das Materias Matriculadas no Semestre atual.
 ![Materias](/images/Materias-Figma.jpg)
-
+---
 - **Historico**: Mostra a frequencias, Notas e Materias por Semestres.
 ![Historico](/images/Historico-Figma.jpg)
-
+---
 
 
 
