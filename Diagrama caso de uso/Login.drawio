@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.4">
+  <diagram name="Page-1" id="GP7IrBBnLj05LESUmmev">
+    <mxGraphModel dx="983" dy="550" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FNcLjiw7w3rflL2UHD69-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="FNcLjiw7w3rflL2UHD69-1" target="FNcLjiw7w3rflL2UHD69-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-1" value="Usuario" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="410" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNcLjiw7w3rflL2UHD69-3" target="FNcLjiw7w3rflL2UHD69-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-3" value="Criar nova senha ou primeiro login" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FNcLjiw7w3rflL2UHD69-5" target="FNcLjiw7w3rflL2UHD69-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-5" value="Logar" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="FNcLjiw7w3rflL2UHD69-6" target="FNcLjiw7w3rflL2UHD69-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="550" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-6" value="Autenticar Usuario e Senha" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-7" value="Acesso ao App" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FNcLjiw7w3rflL2UHD69-18" target="FNcLjiw7w3rflL2UHD69-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-18" value="Validação com Email cadastrado" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="120" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="FNcLjiw7w3rflL2UHD69-22" target="FNcLjiw7w3rflL2UHD69-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-22" value="Cadastra nova senha" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="190" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="FNcLjiw7w3rflL2UHD69-25" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="FNcLjiw7w3rflL2UHD69-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="300" y="337" as="sourcePoint" />
+            <mxPoint x="490" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
