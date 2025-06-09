@@ -86,7 +86,7 @@ graph TD
 
 ### Telas Principais
 
-- **Login**: Campos de RA e senha.
+- **Login**: Campos de CPF e senha.
 ---
 ![Login](/images/Login-Figma.jpg)
 ---
