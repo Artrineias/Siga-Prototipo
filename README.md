@@ -27,33 +27,9 @@ Este projeto tem como objetivo desenvolver um aplicativo móvel para auxiliar al
 - **RNF04**: Disponibilidade de 99.5%.
 - **RNF05**: Compatível com Android e iOS recentes.
 
-### Diagrama de Casos de Uso 
+### Diagrama de Casos de Uso
 
-```mermaid
-graph TD
-    subgraph "App da Faculdade"
-        UC1["Consultar\nInformações Acadêmicas"]
-        UC2["Gerenciar Matrícula"]
-        UC3["Solicitar Documento"]
-        UC4["Processar Solicitação"]
-    end
 
-    Aluno --> UC1
-    Aluno --> UC2
-    Aluno --> UC3
-
-    Secretaria --> UC4
-
-    UC3 -.-> UC4
-```
-
-### 📝 Exemplo de Caso de Uso: Solicitar Documento
-
-1. Aluno acessa o app e vai para "Secretaria Virtual".
-2. Escolhe "Solicitar Documento" → "Atestado de Matrícula".
-3. Solicitação marcada como "Em Processamento".
-4. Secretaria processa o pedido e status muda para "Disponível".
-5. Aluno recebe notificação e baixa o PDF.
 
 ---
 
