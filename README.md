@@ -62,7 +62,7 @@ Este projeto tem como objetivo desenvolver um aplicativo móvel para auxiliar al
 ![CasoDeUsoApp](/images/app.png)
 ---
 
-##  Interface
+## Etapa 2 – Interface
 
 ### Telas Principais
 
