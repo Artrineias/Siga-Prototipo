@@ -38,7 +38,28 @@ Este projeto tem como objetivo desenvolver um aplicativo móvel para auxiliar al
 10. **RNF10 - Confirmação de Ações (Implícito):** Para ações críticas como gestão de matrícula ou emissão de comprovantes, o sistema deve fornecer confirmações claras para o usuário (implícito para evitar erros).
 
 ### Diagrama de Casos de Uso
-
+## login:
+| Caso de Uso                  | Descrição                                                                 |
+|-----------------------------|---------------------------------------------------------------------------|
+| **Autenticação de Usuário** | O aluno insere suas credenciais (e-mail e senha) para acessar o sistema. |
+| **Recupera ou Criar senha** | Caso o aluno não tenha senha ou a tenha esquecido, pode criar ou recuperar uma nova. É uma **extensão** da autenticação. |
+| **Autenticação via email**  | Forma alternativa de autenticação por e-mail (ex: link enviado para acesso). É uma **inclusão** opcional. |
+| **Home do App**             | Tela inicial do aplicativo exibida após login bem-sucedido. |
+---
+![CasoDeUsoLogin](/images/login.png)
+---
+## App:
+| Caso de Uso                   | Descrição                                                                 |
+|------------------------------|---------------------------------------------------------------------------|
+| **Histórico Acadêmico**      | Visualiza histórico com disciplinas, notas e status de aprovação.         |
+| **Matérias**                 | Lista de matérias em que o aluno está matriculado.                        |
+| **Mostra Frequência**        | Exibe a frequência do aluno em cada matéria.                              |
+| **Mostra Notas**             | Mostra as notas obtidas nas disciplinas.                                  |
+| **Gestão de Matrícula**      | Permite interações com a matrícula (ex: trancamento, renovação).          |
+| **Emissão de Comprovantes**  | Solicitação de documentos como atestados de matrícula.                    |
+| **Download de Arquivos**     | Permite baixar documentos gerados (aluno e secretaria). **Extensão** da emissão de comprovantes. |
+---
+![CasoDeUsoApp](/images/app.png)
 ---
 
 ##  Interface
