@@ -39,57 +39,6 @@ Este projeto tem como objetivo desenvolver um aplicativo móvel para auxiliar al
 
 ### Diagrama de Casos de Uso
 
-####Login
-
-```
-graph TD
-    Usuario([Usuário])
-    CriarSenha(["Criar nova senha ou primeiro login"])
-    ValidarEmail(["Validação com Email cadastrado"])
-    NovaSenha(["Cadastra nova senha"])
-    Logar(["Logar"])
-    Autenticar(["Autenticar Usuário e Senha"])
-    AcessoApp(["Acesso ao App"])
-
-    Usuario --> Logar
-    Usuario --> CriarSenha
-
-    CriarSenha --> ValidarEmail --> NovaSenha --> Autenticar
-
-    Logar --> Autenticar --> AcessoApp
-
-```
-
-
-####App
-
-``` 
-graph TD
-    Aluno([Aluno])
-    App((App))
-    Secretaria([Secretaria])
-
-    Aluno --> App
-
-    App --> GerenciarMatricula["Gerenciamento de Matrícula"]
-    App --> Historico["Histórico"]
-    App --> Materias["Matérias"]
-    
-    GerenciarMatricula --> FazerMatricula["Fazer a Matrícula"]
-    GerenciarMatricula --> PedirTrancar["Pedir para Trancar Semestre"]
-    GerenciarMatricula --> PedirDocumento["Pedir Documento ligados à instituição"]
-    
-    Materias --> ListaSemestres["Lista de Semestres Anteriores"]
-    ListaSemestres --> MaisDetalhes["Mostrar matérias cursadas no semestre, notas e faltas"]
-
-    Materias --> MateriasEmCurso["Mostra todas as matérias em curso"]
-    MateriasEmCurso --> NotasTrabalhos["Notas de Prova e Trabalhos + Média Final"]
-    MateriasEmCurso --> FrequenciaFaltas["Frequência e Faltas"]
-
-    Secretaria --> BaixarDocumentos["Baixar os Documentos"]
-
-```
-
 ---
 
 ##  Interface
