@@ -91,7 +91,37 @@ Este projeto tem como objetivo desenvolver um aplicativo móvel para auxiliar al
 ![Historico](/images/Historico-Figma.jpg)
 ---
 
-# Etapa 4 - Métricas de Desenvolvimento
+## Etapa 3 - Backlog - Funcionalidade: Autenticação de Usuário
+
+| ID            | US001                                                                                   |
+|---------------|------------------------------------------------------------------------------------------|
+| Título        | Autenticação de Usuário                                                                 |
+| Papel         | Como um **Aluno**,                                                                       |
+| Desejo        | eu quero me logar no aplicativo usando meu CPF e senha                                   |
+| Valor         | para que eu possa acessar minhas informações acadêmicas de forma segura.                 |
+| Prioridade    | Alta                                                                                     |
+| Status        | Em aberto / Em desenvolvimento / Concluído                                               |
+| Responsável   | (Nome do responsável ou equipe)                                                          |
+| Sprint        | (Sprint associada, se aplicável)                                                         |
+| Estimativa    | (ex: 3 pontos / 4 horas)                                                                 |
+
+### Critérios de Aceite
+
+- [ ] A tela de login deve corresponder ao design `Login-Figma.jpg`.
+- [ ] O usuário deve conseguir inserir CPF e senha.
+- [ ] Uma validação deve ocorrer ao clicar em **"Entra"**.
+- [ ] Em caso de sucesso, o usuário é redirecionado para a tela **Home**.
+- [ ] Em caso de falha (CPF/senha inválidos), uma mensagem de erro clara deve ser exibida.
+
+### Tarefas Técnicas
+
+- [ ] **Frontend:** Criar a tela de Login com os campos "CPF", "Senha" e o botão "Entra".
+- [ ] **Frontend:** Implementar validações de formulário (ex: campo não vazio, formato de CPF).
+- [ ] **Backend:** Desenvolver um endpoint de API `POST /api/login` que recebe CPF e senha, autentica o usuário e retorna um token de acesso (JWT).
+- [ ] **Integração:** Conectar o botão "Entra" ao endpoint da API, tratando as respostas de sucesso e erro.
+
+
+## Etapa 4 - Métricas de Desenvolvimento
 
 Este documento resume métricas essenciais para acompanhar **qualidade**, **produtividade**, **código** e **satisfação dos usuários** no desenvolvimento de software.
 
