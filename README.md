@@ -91,6 +91,79 @@ Este projeto tem como objetivo desenvolver um aplicativo móvel para auxiliar al
 ![Historico](/images/Historico-Figma.jpg)
 ---
 
+# Etapa 4 - Métricas de Desenvolvimento
+
+Este documento resume métricas essenciais para acompanhar **qualidade**, **produtividade**, **código** e **satisfação dos usuários** no desenvolvimento de software.
+
+---
+
+## Métricas de Produtividade
+
+| Métrica                     | Descrição                                                                 |
+|----------------------------|---------------------------------------------------------------------------|
+| Velocidade de entrega      | Quantidade de tarefas ou pontos de história entregues por sprint.         |
+| Commits por dia/semana     | Frequência de atualizações no repositório (Git).                          |
+| Linhas de código (LOC)     | Quantidade de código escrito. Útil com cautela como indicador secundário. |
+
+---
+
+## Métricas de Qualidade
+
+| Métrica                          | Descrição                                                                 |
+|----------------------------------|---------------------------------------------------------------------------|
+| Cobertura de testes (%)          | Percentual de código coberto por testes automatizados.                   |
+| Quantidade de bugs/erros        | Número total de falhas reportadas pelos usuários/testes.                 |
+| Tempo médio para corrigir erros (MTTR) | Tempo médio entre o report e a correção de um bug.                 |
+
+---
+
+## Métricas de Código
+
+| Métrica                   | Descrição                                                                 |
+|---------------------------|---------------------------------------------------------------------------|
+| Complexidade ciclomática  | Mede a complexidade de funções/métodos com base em decisões lógicas.     |
+| Duplicação de código      | Percentual ou número de trechos de código repetido.                      |
+| Padrões de formatação (lint) | Verifica se o código segue boas práticas e convenções de estilo.    |
+
+---
+
+## Métricas de Processo
+
+| Métrica                     | Descrição                                                                 |
+|-----------------------------|---------------------------------------------------------------------------|
+| Tempo de ciclo (Cycle Time) | Tempo entre o início e a entrega de uma tarefa.                          |
+| Lead Time                   | Tempo entre o pedido da funcionalidade e a entrega final ao usuário.     |
+| Pull Requests abertas vs fechadas | Ajuda a medir fluxo de colaboração e revisão de código.           |
+
+---
+
+## 🐛 Correção de Bugs
+
+Estas ajudam a entender a qualidade do software e a eficiência na manutenção:
+
+| Métrica                          | Descrição                                                                 |
+|----------------------------------|---------------------------------------------------------------------------|
+| Bug Count                        | Quantidade total de bugs reportados em um período.                        |
+| Bug Density                      | Número de bugs por mil linhas de código (defeitos/KLOC).                 |
+| Tempo médio para correção (MTTR) | Quanto tempo leva, em média, para corrigir um bug após ser reportado.   |
+| Taxa de retrabalho               | Percentual de bugs reabertos ou recorrentes após serem "corrigidos".     |
+
+---
+
+## 💬 Feedback do Cliente/Usuário
+
+Essas métricas medem percepção, usabilidade e valor entregue:
+
+| Métrica                          | Descrição                                                                 |
+|----------------------------------|---------------------------------------------------------------------------|
+| NPS (Net Promoter Score)         | Mede a satisfação com a pergunta: "Você recomendaria este app?".         |
+| CSAT (Customer Satisfaction)     | Avaliação direta de satisfação (ex: estrelas, emojis, notas).            |
+| Taxa de churn                    | Percentual de usuários que abandonam o app após certo tempo.             |
+| Feature Request Count            | Quantidade de sugestões de novas funcionalidades recebidas.              |
+| Erro percebido vs erro real      | Quando usuários reportam algo como bug, mas era comportamento esperado (pode indicar falha de UX). |
+
+---
+
 ## Etapa 6 - Casos de Teste
 
 | ID do Caso de Teste | Módulo/Funcionalidade    | Requisito(s) Associado(s) | Pré-condição                                      | Passos de Teste                                                                                                                                                                                                                                         | Resultado Esperado                                                                                                                                                              | Resultado Real | Status (Passou/Falhou) | Prioridade (Alta/Média/Baixa) |
