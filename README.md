@@ -137,7 +137,7 @@ Este documento resume métricas essenciais para acompanhar **qualidade**, **prod
 
 ---
 
-## 🐛 Correção de Bugs
+## Correção de Bugs
 
 Estas ajudam a entender a qualidade do software e a eficiência na manutenção:
 
@@ -150,7 +150,7 @@ Estas ajudam a entender a qualidade do software e a eficiência na manutenção:
 
 ---
 
-## 💬 Feedback do Cliente/Usuário
+## Feedback do Cliente/Usuário
 
 Essas métricas medem percepção, usabilidade e valor entregue:
 
